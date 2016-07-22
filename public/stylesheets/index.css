@@ -31,6 +31,25 @@ header h1 {
     height: 60px;
     line-height: 60px;
 }
+ul.type {
+    margin: 5px auto;
+    width:162px;
+    height: 30px;
+    list-style: none;
+    border: 1px solid #fff;
+    line-height: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+ul.type li {
+    width:80px;
+    float:left;
+    text-align: center;
+    cursor: pointer;
+}
+ul.type li.selected {
+    background:#b1b1b1;
+}
 .left {
     left: 10px;
     top: 170px;
